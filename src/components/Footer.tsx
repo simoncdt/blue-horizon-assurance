@@ -1,30 +1,7 @@
-import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from "lucide-react";
-
-const footerCols = [
-  {
-    title: "Pages principales",
-    links: ["À propos", "Nos solutions", "Actualités", "Carrières", "Développement durable"],
-  },
-  {
-    title: "Les plus consultées",
-    links: ["Assurance santé", "Résultats financiers", "Offres d'emploi", "Rapport annuel"],
-  },
-  {
-    title: "Nous recommandons",
-    links: ["Application mobile", "Actions AssurGlobal", "Notre histoire", "Partenaires"],
-  },
-  {
-    title: "Services & Contacts",
-    links: ["Contacts dans le monde", "Produits & Services", "Contacts presse", "FAQ"],
-  },
-];
-
 const socials = [
-  { icon: Facebook, label: "Facebook" },
-  { icon: Instagram, label: "Instagram" },
-  { icon: Linkedin, label: "LinkedIn" },
-  { icon: Twitter, label: "X" },
-  { icon: Youtube, label: "YouTube" },
+  { label: "Facebook", path: "M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" },
+  { label: "LinkedIn", path: "M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 6a2 2 0 100-4 2 2 0 000 4z" },
+  { label: "X", path: "M4 4l11.733 16H20L8.267 4H4zM4 20l6.768-6.768M20 4l-6.768 6.768" },
 ];
 
 export default function Footer() {
