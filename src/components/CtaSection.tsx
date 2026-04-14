@@ -42,7 +42,7 @@ export default function CtaSection() {
           >
             <img
               src={ctaImg}
-              alt="Service client AssurGlobal"
+              alt="Service client Simplificateurs Financiers"
               className="rounded-2xl shadow-2xl"
               loading="lazy"
               width={800}

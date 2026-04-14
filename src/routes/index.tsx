@@ -14,9 +14,9 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "AssurGlobal — Assurance internationale de confiance" },
+      { title: "Simplificateurs Financiers — Assurance internationale de confiance" },
       { name: "description", content: "Assurance santé internationale sur mesure pour les particuliers, familles et entreprises. Couverture dans plus de 200 pays avec un support 24h/24." },
-      { property: "og:title", content: "AssurGlobal — Assurance internationale de confiance" },
+      { property: "og:title", content: "Simplificateurs Financiers — Assurance internationale de confiance" },
       { property: "og:description", content: "Assurance santé internationale sur mesure pour les particuliers, familles et entreprises." },
     ],
   }),

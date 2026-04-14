@@ -9,7 +9,7 @@ const footerCols = [
   },
   {
     title: "Nous recommandons",
-    links: ["Application mobile", "Actions AssurGlobal", "Notre histoire", "Partenaires"],
+    links: ["Application mobile", "Actions Simplificateurs Financiers", "Notre histoire", "Partenaires"],
   },
   {
     title: "Services & Contacts",
@@ -62,7 +62,7 @@ export default function Footer() {
                   <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <span className="text-lg font-bold tracking-tight">AssurGlobal</span>
+              <span className="text-lg font-bold tracking-tight">Simplificateurs Financiers</span>
             </div>
             <p className="text-sm text-primary-foreground/60 max-w-xs">
               Protéger le monde depuis plus de 60 ans.
@@ -103,7 +103,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
             {/* Copyright */}
             <p className="text-sm text-primary-foreground/50 shrink-0">
-              © AssurGlobal 2026. Tous droits réservés.
+              © Simplificateurs Financiers 2026. Tous droits réservés.
             </p>
 
             {/* Legal links — wrap naturally */}
