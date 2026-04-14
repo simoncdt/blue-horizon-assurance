@@ -38,7 +38,7 @@ export default function WhyChooseSection() {
             <div className="h-8 w-1 rounded-full bg-accent" />
             <span className="text-sm font-semibold text-accent uppercase tracking-wide">Nos atouts</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Pourquoi choisir AssurGlobal</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Pourquoi choisir Simplificateurs Financiers</h2>
         </motion.div>
 
         <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

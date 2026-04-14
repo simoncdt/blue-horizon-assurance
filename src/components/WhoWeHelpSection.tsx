@@ -5,7 +5,7 @@ const segments = [
   {
     icon: Briefcase,
     title: "Entreprises",
-    description: "Avec un réseau mondial de professionnels de santé et d'hôpitaux, AssurGlobal accompagne les entreprises dans la protection de leurs collaborateurs depuis plus de 60 ans.",
+    description: "Avec un réseau mondial de professionnels de santé et d'hôpitaux, Simplificateurs Financiers accompagne les entreprises dans la protection de leurs collaborateurs depuis plus de 60 ans.",
   },
   {
     icon: Users,

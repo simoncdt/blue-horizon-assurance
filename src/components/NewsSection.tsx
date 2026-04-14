@@ -8,7 +8,7 @@ const articles = [
     image: article1,
     title: "Résultats annuels 2025 : une croissance soutenue",
     date: "14 avril 2026",
-    excerpt: "AssurGlobal publie ses résultats annuels 2025, confirmant une trajectoire de croissance solide sur l'ensemble de ses marchés internationaux.",
+    excerpt: "Simplificateurs Financiers publie ses résultats annuels 2025, confirmant une trajectoire de croissance solide sur l'ensemble de ses marchés internationaux.",
   },
   {
     image: article2,

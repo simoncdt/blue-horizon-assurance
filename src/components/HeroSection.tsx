@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <img
           src={heroImg}
-          alt="Famille heureuse protégée par AssurGlobal"
+          alt="Famille heureuse protégée par Simplificateurs Financiers"
           className="h-full w-full object-cover"
           width={1920}
           height={900}
