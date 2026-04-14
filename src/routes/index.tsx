@@ -1,26 +1,42 @@
 import { createFileRoute } from "@tanstack/react-router";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import StatsBar from "@/components/StatsBar";
+import NewsSection from "@/components/NewsSection";
+import ServicesSection from "@/components/ServicesSection";
+import AboutPlansSection from "@/components/AboutPlansSection";
+import WhoWeHelpSection from "@/components/WhoWeHelpSection";
+import WhyChooseSection from "@/components/WhyChooseSection";
+import CtaSection from "@/components/CtaSection";
+import Footer from "@/components/Footer";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "AssurGlobal — Assurance internationale de confiance" },
+      { name: "description", content: "Assurance santé internationale sur mesure pour les particuliers, familles et entreprises. Couverture dans plus de 200 pays avec un support 24h/24." },
+      { property: "og:title", content: "AssurGlobal — Assurance internationale de confiance" },
+      { property: "og:description", content: "Assurance santé internationale sur mesure pour les particuliers, familles et entreprises." },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="/placeholder.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen">
+      <Navbar />
+      <main>
+        <HeroSection />
+        <StatsBar />
+        <NewsSection />
+        <ServicesSection />
+        <AboutPlansSection />
+        <WhoWeHelpSection />
+        <WhyChooseSection />
+        <CtaSection />
+      </main>
+      <Footer />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
